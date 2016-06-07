@@ -1,7 +1,7 @@
 # vim: set ft=sh:
-
 alias em="emacs -nw"
 alias emc="emacsclient"
 alias vs="vim --servername default-vim-server"
 alias gvs="gvim --servername default-vim-server"
 alias vc="vim --servername default-vim-server --remote"
+export TERM=xterm-256color
