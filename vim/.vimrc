@@ -4,3 +4,4 @@ set expandtab
 set tabstop=2
 filetype indent on
 set visualbell
+set incsearch
