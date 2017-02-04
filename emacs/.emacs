@@ -38,9 +38,6 @@
 (require 'ido)
 (ido-mode t)
 
-;; Color Theme
-(load-theme 'misterioso t)
-
 ;; Melpa package repository
 (require 'package)
 (add-to-list 'package-archives
@@ -61,7 +58,9 @@
 
 ;; GUI only settings
 (when window-system
-  (tool-bar-mode 0))
+  (load-theme 'misterioso t)
+  (tool-bar-mode 1)
+  (menu-bar-mode 1))
 
 ;; OSX only settings
 (when (eq window-system 'ns)
