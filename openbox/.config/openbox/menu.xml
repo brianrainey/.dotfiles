@@ -12,8 +12,11 @@
   <item label="Firefox">
     <action name="Execute"><execute>firefox</execute></action>
   </item>
-  <item label="gVim">
+  <item label="Vim">
     <action name="Execute"><execute>gvim</execute></action>
+  </item>
+  <item label="Emacs">
+    <action name="Execute"><execute>emacs</execute></action>
   </item>
   <item label="VS Code">
     <action name="Execute"><execute>code</execute></action>

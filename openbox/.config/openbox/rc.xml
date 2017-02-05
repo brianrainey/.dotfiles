@@ -179,74 +179,6 @@
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
     <!-- Keybindings for desktop switching -->
-    <keybind key="C-A-Left">
-      <action name="GoToDesktop">
-        <to>left</to>
-        <wrap>no</wrap>
-      </action>
-    </keybind>
-    <keybind key="C-A-Right">
-      <action name="GoToDesktop">
-        <to>right</to>
-        <wrap>no</wrap>
-      </action>
-    </keybind>
-    <keybind key="C-A-Up">
-      <action name="GoToDesktop">
-        <to>up</to>
-        <wrap>no</wrap>
-      </action>
-    </keybind>
-    <keybind key="C-A-Down">
-      <action name="GoToDesktop">
-        <to>down</to>
-        <wrap>no</wrap>
-      </action>
-    </keybind>
-    <keybind key="S-A-Left">
-      <action name="SendToDesktop">
-        <to>left</to>
-        <wrap>no</wrap>
-      </action>
-    </keybind>
-    <keybind key="S-A-Right">
-      <action name="SendToDesktop">
-        <to>right</to>
-        <wrap>no</wrap>
-      </action>
-    </keybind>
-    <keybind key="S-A-Up">
-      <action name="SendToDesktop">
-        <to>up</to>
-        <wrap>no</wrap>
-      </action>
-    </keybind>
-    <keybind key="S-A-Down">
-      <action name="SendToDesktop">
-        <to>down</to>
-        <wrap>no</wrap>
-      </action>
-    </keybind>
-    <keybind key="W-F1">
-      <action name="GoToDesktop">
-        <to>1</to>
-      </action>
-    </keybind>
-    <keybind key="W-F2">
-      <action name="GoToDesktop">
-        <to>2</to>
-      </action>
-    </keybind>
-    <keybind key="W-F3">
-      <action name="GoToDesktop">
-        <to>3</to>
-      </action>
-    </keybind>
-    <keybind key="W-F4">
-      <action name="GoToDesktop">
-        <to>4</to>
-      </action>
-    </keybind>
     <keybind key="W-d">
       <action name="ToggleShowDesktop"/>
     </keybind>
@@ -323,22 +255,27 @@
     </keybind>
 
     <!-- My Bindings -->
-    <keybind key="A-g">
-      <action name="Execute">
-        <command>gvim</command>
-      </action>
-    </keybind>
-    <keybind key="A-t">
+    <keybind key="C-A-t">
       <action name="Execute">
         <command>urxvt</command>
       </action>
     </keybind>
-    <keybind key="A-w">
+    <keybind key="C-A-g">
+      <action name="Execute">
+        <command>gvim</command>
+      </action>
+    </keybind>
+    <keybind key="C-A-e">
+      <action name="Execute">
+        <command>emacs</command>
+      </action>
+    </keybind>
+    <keybind key="C-A-w">
       <action name="Execute">
         <command>firefox</command>
       </action>
     </keybind>
-    <keybind key="A-m">
+    <keybind key="C-A-m">
       <action name="ShowMenu">
         <menu>root-menu</menu>
       </action>
