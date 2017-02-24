@@ -52,6 +52,9 @@
     (kill-new buffer-file-name)
     (message buffer-file-name)))
 
+;; Use Guile as the scheme program
+(set-variable 'scheme-program-name "guile")
+
 ;; Terminal only settings
 (when (eq window-system nil)
   (global-unset-key (kbd "C-t")))
