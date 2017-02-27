@@ -1,4 +1,3 @@
-
 ;; Disable splash screen
 (setq inhibit-splash-screen t)
 
@@ -55,13 +54,16 @@
 ;; Use Guile as the scheme program
 (set-variable 'scheme-program-name "guile")
 
+;; Auto load paredit in scheme mode
+(add-hook 'scheme-mode-hook #'enable-paredit-mode)
+
 ;; Terminal only settings
 (when (eq window-system nil)
   (global-unset-key (kbd "C-t")))
 
 ;; GUI only settings
 (when window-system
-  (load-theme 'misterioso t)
+  (load-theme 'dichromacy t)
   (tool-bar-mode 1)
   (menu-bar-mode 1))
 
@@ -77,4 +79,4 @@
 ;; Linux only settings
 (when (eq window-system 'x)
   (add-to-list 'default-frame-alist
-               '(font . "Inconsolata-14")))
+               '(font . "Droid\ Sans\ Mono-10")))
