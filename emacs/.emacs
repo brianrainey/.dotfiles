@@ -79,4 +79,4 @@
 ;; Linux only settings
 (when (eq window-system 'x)
   (add-to-list 'default-frame-alist
-               '(font . "Droid\ Sans\ Mono-10")))
+               '(font . "Inconsolata-14")))

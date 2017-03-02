@@ -1,1 +1,2 @@
-#sh ~/.fehbg &
+sh ~/.fehbg &
+tint2 &

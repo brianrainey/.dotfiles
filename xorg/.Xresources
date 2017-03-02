@@ -1,8 +1,8 @@
-URxvt.font: xft:Inconsolata:size=13:antialias=true
+URxvt.font: xft:Inconsolata:size=14:antialias=true
 URxvt.letterSpace: -1
 
 urxvt*foreground: white
-urxvt*background: black
+urxvt*background: #333333
 
 ! black
 urxvt*color:    #141414
