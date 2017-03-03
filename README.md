@@ -1,44 +1,52 @@
 # Linux Desktop Setup
 
 
-Install Debian without desktop:
+## Install Debian without a desktop.
 
-`su`
-`apt install sudo`
-`useradd brian sudo`
+## Create User:
 
-Install basic Openbox environment:
+    su
+    apt install sudo
+    useradd brian sudo
 
-`sudo apt install xorg openbox rxvt-unicode-256color feh lxappearance`
+## Install basic Openbox environment:
 
-With some decent fonts:
+    sudo apt install xorg openbox rxvt-unicode-256color feh lxappearance xfce4-appfinder tint2
 
-`sudo apt install fonts-inconsolata fonts-liberation fonts-droid`
+## With some decent fonts:
 
-Essential apps:
+    sudo apt install fonts-inconsolata fonts-liberation fonts-droid
 
-`sudo apt install iceweasel vim-gtk`
+## Browser:
 
-Programming tools:
+    sudo apt install iceweasel
 
-`sudo apt install git stow tmux`
+## Programming tools:
 
-Git Setup:
+    sudo apt install git stow tmux vim emacs-nox
 
-`git config --global user.name "<username>"`
-`git config --global user.email "<email>"`
-`git config --global push.default simple`
-`git config --global core.editor "gvim -f"`
+## Git Setup:
 
-Visual Studio Code:
+    git config --global user.name "<username>"
+    git config --global user.email "<email>"
+    git config --global push.default simple
+
+## Visual Studio Code:
 
 [tbd]
 
-Sound:
+## Mega:
 
-`sudo apt install pulseaudio pavucontrol`
+[tbd]
+
+## Sound:
+
+    sudo apt install pulseaudio pavucontrol
+
 (If running in a VM, change the VM's Audio Settings to Intel HD Audio)
 
-Dotfiles:
+## Dotfiles:
 
-vim xorg openbox tmux fonts README.md
+    git clone https://github.com/brianrainey/.dotfiles.git
+
+`stow` everything.
