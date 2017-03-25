@@ -256,17 +256,17 @@
       </action>
     </keybind>
     <!-- My Bindings -->
-    <keybind key="C-A-m">
+    <keybind key="W-m">
       <action name="ShowMenu">
         <menu>root-menu</menu>
       </action>
     </keybind>
-    <keybind key="C-A-l">
+    <keybind key="W-l">
       <action name="Execute">
         <command>xfce4-appfinder</command>
       </action>
     </keybind>
-    <keybind key="C-A-r">
+    <keybind key="W-r">
       <action name="Execute">
         <command>xfrun4</command>
       </action>
