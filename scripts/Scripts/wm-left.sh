@@ -1,0 +1,1 @@
+wmctrl -e 0,0,0,720,840 -r :ACTIVE:
