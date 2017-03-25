@@ -1,7 +1,6 @@
 # Linux Desktop Setup
 
-
-## Install Debian without a desktop.
+## Install Debian with no desktop.
 
 ## Create User:
 
@@ -17,9 +16,12 @@
 
     sudo apt install fonts-inconsolata fonts-liberation fonts-droid
 
-## Browser:
+## Browser (Latest Firefox):
 
-    sudo apt install iceweasel
+* Download binaries from getfirefox.com
+* Unzip
+* Move firefox folder to /usr/share
+* Link from /usr/bin
 
 ## Programming tools:
 
