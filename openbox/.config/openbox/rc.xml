@@ -261,14 +261,14 @@
         <menu>root-menu</menu>
       </action>
     </keybind>
-    <keybind key="W-l">
+    <keybind key="W-t">
       <action name="Execute">
-        <command>xfce4-appfinder</command>
+        <command>urxvt</command>
       </action>
     </keybind>
     <keybind key="W-r">
       <action name="Execute">
-        <command>xfrun4</command>
+        <command>gmrun</command>
       </action>
     </keybind>
     <!-- Launch scrot when Print is pressed -->
