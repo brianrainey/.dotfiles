@@ -2,6 +2,7 @@ syntax on
 set autoindent
 set expandtab
 set tabstop=2
-filetype indent on
+filetype plugin indent on
 set visualbell
 set incsearch
+execute pathogen#infect()
