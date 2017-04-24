@@ -10,7 +10,7 @@
 
 ## Install basic Openbox environment:
 
-    sudo apt install xorg openbox rxvt-unicode-256color feh lxappearance xfce4-appfinder tint2
+    sudo apt install xorg openbox rxvt-unicode-256color feh lxappearance gmrun tint2 xclip
 
 ## With some decent fonts:
 
@@ -40,6 +40,13 @@
 ## Mega:
 
 [tbd]
+
+## Micro
+
+* Download binary from https://micro-editor.github.io/
+* Unzip
+* Move micro folder to /usr/share
+* Link from /usr/bin
 
 ## Sound:
 
