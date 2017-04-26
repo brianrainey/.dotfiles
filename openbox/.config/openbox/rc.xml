@@ -271,6 +271,11 @@
         <command>gmrun</command>
       </action>
     </keybind>
+    <keybind key="W-w">
+      <action name="Execute">
+        <command>firefox</command>
+      </action>
+    </keybind>
     <!-- Launch scrot when Print is pressed -->
     <keybind key="Print">
       <action name="Execute">
