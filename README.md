@@ -10,7 +10,7 @@
 
 ## Install basic Openbox environment:
 
-    sudo apt install xorg openbox rxvt-unicode-256color feh lxappearance gmrun tint2 xclip
+    sudo apt install xorg openbox rxvt-unicode-256color feh lxappearance gmrun tint2 clipit
 
 ## With some decent fonts:
 
