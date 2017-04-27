@@ -13,8 +13,8 @@
   <item label="Firefox">
     <action name="Execute"><execute>firefox</execute></action>
   </item>
-  <item label="VS Code">
-    <action name="Execute"><execute>code</execute></action>
+  <item label="gVim">
+    <action name="Execute"><execute>gvim</execute></action>
   </item>
 
   <menu id="settings-menu" label="Settings">
