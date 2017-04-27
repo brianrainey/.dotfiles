@@ -25,7 +25,7 @@
 
 ## Programming tools:
 
-    sudo apt install git stow tmux vim emacs-nox
+    sudo apt install git stow tmux vim-gtk silversearcher-ag
 
 ## Git Setup:
 
@@ -33,13 +33,13 @@
     git config --global user.email "<email>"
     git config --global push.default simple
 
-## Visual Studio Code:
+## FZF, Silver Searcher
 
-[tbd]
+    sudo apt install silversearcher-ag
+    git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+    ~/.fzf/install
 
-## Mega:
-
-[tbd]
+Set environment variables `FZF_DEFAULT_COMMAND` and `FZF_CTRL_T_COMMAND`.
 
 ## Micro
 
