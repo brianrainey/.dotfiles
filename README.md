@@ -6,7 +6,7 @@
 
     su
     apt install sudo
-    useradd brian sudo
+    adduser brian sudo
 
 ## Install basic Openbox environment:
 
