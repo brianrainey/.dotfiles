@@ -205,7 +205,7 @@
     <!-- Keybindings for window switching -->
     <keybind key="A-Tab">
       <action name="NextWindow">
-        <dialog>none</dialog>
+        <dialog>list</dialog>
         <raise>yes</raise>
         <finalactions>
           <action name="Focus"/>
