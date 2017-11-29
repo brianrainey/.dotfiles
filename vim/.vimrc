@@ -8,4 +8,3 @@ set number
 set scrolloff=5
 set showcmd
 filetype plugin indent on
-execute pathogen#infect()
