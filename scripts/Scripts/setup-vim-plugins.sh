@@ -1,3 +1,6 @@
+# Create a backup directory
+mkdir ~/Backups
+
 # Install Pathogen for general plugin management
 mkdir -p ~/.vim/autoload ~/.vim/bundle 
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
