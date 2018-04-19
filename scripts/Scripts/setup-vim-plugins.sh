@@ -10,3 +10,6 @@ git clone https://github.com/vim-syntastic/syntastic ~/.vim/bundle/syntastic
 
 # Gitgutter for change tracking
 git clone https://github.com/airblade/vim-gitgutter ~/.vim/bundle/gitgutter
+
+# Sensible highlighting and indentation for JavaScript
+git clone https://github.com/pangloss/vim-javascript.git ~/.vim/bundle/vim-javascript

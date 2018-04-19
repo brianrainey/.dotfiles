@@ -59,12 +59,6 @@ Set environment variables `FZF_DEFAULT_COMMAND` and `FZF_CTRL_T_COMMAND`.
 * Move micro folder to /usr/share
 * Link from /usr/bin
 
-## Sound:
-
-    sudo apt install pulseaudio pavucontrol
-
-(If running in a VM, change the VM's Audio Settings to Intel HD Audio)
-
 ## Dotfiles:
 
     git clone https://github.com/brianrainey/.dotfiles.git

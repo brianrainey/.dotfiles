@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+alias v='gvim --remote-tab'

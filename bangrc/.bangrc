@@ -1,5 +1,0 @@
-alias gvim='gvim --remote'
-alias ag='ag --hidden'
-
-export FZF_DEFAULT_COMMAND='ag --hidden -g ""'
-export FZF_CTRL_T_COMMAND=$FZF_DEFAULT_COMMAND
