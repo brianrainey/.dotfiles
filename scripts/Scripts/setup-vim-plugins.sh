@@ -5,6 +5,9 @@ mkdir ~/Backups
 mkdir -p ~/.vim/autoload ~/.vim/bundle 
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
+# Color scheme
+git clone https://github.com/morhetz/gruvbox.git ~/.vim/bundle/gruvbox
+
 # Gitgutter for change tracking
 git clone https://github.com/airblade/vim-gitgutter ~/.vim/bundle/gitgutter
 
