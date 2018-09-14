@@ -1,12 +1,8 @@
 " ===================================================================
 " General GUI color tweaks
 " ===================================================================
-set bg=light
+set background=dark
 colors gruvbox
-hi GitGutterChangeDefault guibg=lightblue guifg=darkblue
-hi GitGutterAddDefault guibg=lightgreen guifg=darkgreen
-hi GitGutterDeleteDefault guibg=lightred guifg=darkred
-
 
 " ===================================================================
 " Execute any local config (e.g. guifont). This allows for different 

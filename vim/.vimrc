@@ -6,12 +6,14 @@ set autoindent
 set expandtab
 set tabstop=2
 set shiftwidth=2
+set nowrap
 set backupdir=~/Backups
 set visualbell
 set incsearch
 set number
 set scrolloff=2
 set showcmd
+set rtp+=~/.fzf
 filetype plugin indent on
 
 
