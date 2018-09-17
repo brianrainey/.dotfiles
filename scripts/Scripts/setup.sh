@@ -1,5 +1,5 @@
 # Starter binaries
-sudo apt install curl git stow vim-gnome silversearcher-ag
+sudo apt install curl git gvim stow silversearcher-ag
 
 # Fuzzy Finder
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
