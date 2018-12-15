@@ -1,66 +1,25 @@
-# Linux Desktop Setup
-This document contains some brief documentation about my preferred Linux desktop setup.
+# .dotfiles
 
-Inspired by [Crunchbang](http://www.crunchbanglinux.org/) / [BunsenLabs](https://www.bunsenlabs.org/), it's my own version of a lightweight, minimal Openbox environment based on Debian stable.
+General config and notes for the way I like to use Linux. 
 
-## Install Debian with no desktop.
+Distro-specific details are in [distro-notes](/distro-notes/).
 
-## Create User:
+The idea behind the config files is to clone this entire repository and then use
+[stow](https://www.gnu.org/software/stow/) to create links in the right places.
+This makes it easy to version control all the config files, wherever the links
+need to live on the file system. 
 
-First things first; create a user with sudo privileges:
+## General Setup
 
-    su
-    apt install sudo
-    adduser brian sudo
+Every environment needs curl, git, stow, gvim, fzf, sdkman. Maybe ack or ag.
+Grip is good for previewing README files in Github repos.
 
-Because I prefer `startx` over a graphical display manager, being able to shutdown from the command line without entering a password is useful. `sudo visudo`, then add the following:
+## File Management
 
-    brian ALL=(ALL) NOPASSWD: /sbin/shutdown
+* git-grep
+* git-lsfiles
+* ag / ack
+* fzf
 
-## Install Basic Openbox environment:
-
-    sudo apt install xorg openbox rxvt-unicode-256color feh lxappearance gmrun tint2 clipit
-
-## With some decent fonts:
-
-    sudo apt install fonts-inconsolata fonts-liberation fonts-droid
-
-## Browser (Latest Firefox):
-
-Debian's default Firefox is a little old, but that's easy to fix:
-
-* Download [binaries from Mozilla](https://www.mozilla.org/en-US/firefox/new/).
-* Unzip to a temporary location.
-* Move firefox folder to `/usr/share`.
-* Link from `/usr/bin`.
-
-## Programming tools:
-
-    sudo apt install git stow tmux vim-gtk 
-
-## Git Setup:
-
-    git config --global user.name "<username>"
-    git config --global user.email "<email>"
-    git config --global push.default simple
-
-## FZF, Silver Searcher
-
-    sudo apt install silversearcher-ag
-    git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-    ~/.fzf/install
-
-Set environment variables `FZF_DEFAULT_COMMAND` and `FZF_CTRL_T_COMMAND`.
-
-## Micro
-
-* Download binary from https://micro-editor.github.io/
-* Unzip
-* Move micro folder to /usr/share
-* Link from /usr/bin
-
-## Dotfiles:
-
-    git clone https://github.com/brianrainey/.dotfiles.git
-
-`stow` everything.
+Fancy file management from within vim is more trouble than it's worth. Find
+what's needed on the command line, then open it with `gvim ** <TAB>`.
