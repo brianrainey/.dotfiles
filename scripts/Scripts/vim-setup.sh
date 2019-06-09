@@ -15,5 +15,8 @@ git clone https://github.com/airblade/vim-gitgutter ~/.vim/bundle/gitgutter
 # Ctrl-P file finder
 git clone https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
 
-# Vim highlighting and indentation for JavaScript
+# Highlighting and indentation for JavaScript
 git clone https://github.com/pangloss/vim-javascript.git ~/.vim/bundle/vim-javascript
+
+# Highlighting and indentation for Groovy
+git clone https://github.com/vim-scripts/groovy.vim ~/.vim/bundle/groovy.vim
