@@ -8,6 +8,7 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 # Vim color schemes
 git clone https://github.com/morhetz/gruvbox.git ~/.vim/bundle/gruvbox
 git clone https://github.com/junegunn/seoul256.vim ~/.vim/bundle/seoul256
+git clone https://github.com/aonemd/kuroi.vim ~/.vim/bundle/kuroi
 
 # Vim Gitgutter for change tracking
 git clone https://github.com/airblade/vim-gitgutter ~/.vim/bundle/gitgutter

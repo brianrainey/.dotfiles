@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-alias gg='git grep -i'
-alias gf='git ls-files | grep'
