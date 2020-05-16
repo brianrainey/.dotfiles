@@ -1,2 +1,2 @@
-export FZF_DEFAULT_COMMAND="ag --hidden -g ''"
-export FZF_CTRL_T_COMMAND=$FZF_DEFAULT_COMMAND
+export PS1="\[\e[32m\][\[\e[m\]\[\e[32m\]\W\[\e[m\]\[\e[32m\]]\[\e[m\]: "
+alias gr="gvim --remote"
