@@ -1,8 +1,9 @@
 " ===================================================================
 " General GUI color tweaks
 " ===================================================================
-set background=dark
+set background=light
 colors gruvbox
+set guioptions-=T
 
 " ===================================================================
 " Execute any local config (e.g. guifont). This allows for different 
