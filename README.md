@@ -23,3 +23,7 @@ Grip is good for previewing README files in Github repos.
 
 Fancy file management from within vim is more trouble than it's worth. Find
 what's needed on the command line, then open it with `gvim ** <TAB>`.
+
+## Drivers
+Disable WIFI on MacBook in favor of USB dongle. Add a .conf file at
+/etc/modprobe.d and blacklist `wl`.

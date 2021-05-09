@@ -13,7 +13,6 @@ set incsearch
 set number
 set scrolloff=2
 set showcmd
-set rtp+=~/.fzf
 filetype plugin indent on
 
 
