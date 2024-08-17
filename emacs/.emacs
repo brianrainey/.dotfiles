@@ -1,8 +1,7 @@
 ;; Melpa
 (require 'package)
-(add-to-list 'package-archives
-	     '("melpa" . 
-	       "https://melpa.org/packages/") t)
+(add-to-list 'package-archives '("melpa"
+ . "https://melpa.org/packages/") t)
 (package-initialize)
 
 ;; Customize settings
@@ -16,18 +15,20 @@
 (catppuccin-reload)
 
 ;; General UI tweaks
-(setq visible-bell t)
-(setq inhibit-startup-screen t)
 (tool-bar-mode -1)
 (global-display-line-numbers-mode t)
+(setq visible-bell t)
+(setq inhibit-startup-screen t)
+
+;; File Handling
+(setq vc-follow-symlinks t)
 
 ;; Text handling
 (toggle-truncate-lines t)
 (setq next-line-add-newlines t)
 
-;; Ivy completion framework
-(ivy-mode 1)
-(setq ivy-use-virtual-buffers t)
-(setq ivy-count-format "(%d/%d) ")
-(keymap-global-set "C-s" 'swiper-isearch)
-(keymap-global-set "C-x b" 'counsel-switch-buffer)
+;; Org Mode
+(add-hook 'org-mode-hook 'org-indent-mode)
+(setq org-directory "~/Org")
+(setq org-agenda-files
+      (directory-files-recursively org-directory "\\.org$"))
