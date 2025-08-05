@@ -19,8 +19,8 @@
 (global-display-line-numbers-mode t)
 (setq visible-bell t)
 (setq inhibit-startup-screen t)
-(add-to-list 'default-frame-alist
-	     '(fullscreen . maximized))
+;; (add-to-list 'default-frame-alist
+;; 	     '(fullscreen . maximized))
 
 ;; File Handling
 (setq vc-follow-symlinks t)
@@ -30,6 +30,9 @@
 (setq next-line-add-newlines t)
 
 ;; Org Mode
-(setq org-directory "~/Org")
-(setq org-agenda-files
-      (directory-files-recursively org-directory "\\.org$"))
+;; (setq org-directory "~/Org")
+;; (setq org-agenda-files
+;;       (directory-files-recursively org-directory "\\.org$"))
+;; (setq outline-blank-line t)
+;; (setq org-cycle-separator-lines 1)
+
