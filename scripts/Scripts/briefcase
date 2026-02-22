@@ -1,17 +1,17 @@
 #! /bin/bash
 case "$1" in
     "unpack") 
-        echo "Mirroring files from diskstation: ...";
-        rclone sync --progress diskstation:/PARA/Projects ~/Mirror/Projects;
-        rclone sync --progress diskstation:/PARA/Areas ~/Mirror/Areas;;
+        echo "Unpacking files from diskstation: ..."
+        rclone sync --progress diskstation:/PARA/Projects ~/Briefcase/Projects
+        rclone sync --progress diskstation:/PARA/Areas ~/Briefcase/Areas;;
     "pack") 
-        echo "Pushing local changes to diskstation: ...";
-        rclone sync --progress ~/Mirror/Projects diskstation:/PARA/Projects;
-        rclone sync --progress ~/Mirror/Areas diskstation:/PARA/Areas;;
+        echo "Packing local changes back to diskstation: ..."
+        rclone sync --progress ~/Briefcase/Projects diskstation:/PARA/Projects
+        rclone sync --progress ~/Briefcase/Areas diskstation:/PARA/Areas;;
     "status") 
-        echo "Comparing diskstation: to local mirror ...";
-        rclone check diskstation:/PARA/Projects ~/Mirror/Projects;
-        rclone check diskstation:/PARA/Areas ~/Mirror/Areas;;
+        echo "Comparing diskstation: to local mirror ..."
+        rclone check diskstation:/PARA/Projects ~/Briefcase/Projects
+        rclone check diskstation:/PARA/Areas ~/Briefcase/Areas;;
     *) 
         echo "Invalid parameter: Use unpack, pack or status.";; 
 esac
