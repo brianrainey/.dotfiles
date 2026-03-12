@@ -1,1 +1,2 @@
-alias gvim=nvim-qt
+alias gvim=nvim-gtk
+alias vim=nvim
